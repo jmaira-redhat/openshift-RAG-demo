@@ -1,0 +1,35 @@
+# --- Java / Maven Defaults ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.mtj.tmp/
+.metadata/
+.classpath
+.project
+.settings/
+.factorypath
+.mvn/wrapper/maven-wrapper.properties
+
+# --- Node.js / Next.js Defaults ---
+node_modules/
+.next/
+out/
+build/
+dist/
+.env*.local
+.vercel
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- IDE & OS Specific ---
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
